@@ -10,10 +10,6 @@ namespace Aviv.Controllers
     {
         public ActionResult Index()
         {
-            if ( Request.QueryString["redirect"] != "false") { 
-                      
-                Response.Redirect("/Account/Login");
-            }
             return View();
         }
 
